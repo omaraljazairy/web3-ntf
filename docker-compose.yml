@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+    website:
+        build: .
+        container_name: web3-v1
+        # command: npm run start
+        command: ["tail", "-f", "/dev/null"]
+        volumes:
+            - ./:/blockchain
+            - /blockchain/node_modules
+            - .env:/blockchain/.env
+        ports:
+            - "3003:3000"
+        environment: 
+            - ENV=${env}

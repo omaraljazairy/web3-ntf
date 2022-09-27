@@ -1,0 +1,38 @@
+{
+  "name": "NTF",
+  "version": "1.0.0",
+  "description": "web3 ntf",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Omar Aljazairy",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.1",
+    "cowsay": "latest",
+    "create-react-app": "^5.0.1",
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4",
+    "fs-extra": "latest",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.2",
+    "next": "^12.3.0",
+    "next-routes-extended": "^1.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
+    "solc": "^0.8.9",
+    "web3": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/omaraljazairy/web3-ntf.git"
+  },
+  "keywords": [
+    "web3-ethereum"
+  ],
+  "bugs": {
+    "url": "https://github.com/omaraljazairy/web3-ntf/issues"
+  },
+  "homepage": "https://github.com/omaraljazairy/web3-ntf#readme"
+}
